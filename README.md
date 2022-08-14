@@ -1,6 +1,6 @@
-#Chess
+# Chess
 
-##Description
+## Description
 
 Implemented the functionality of a game of chess in Java as my CIS120 (Programming Languages and Techniques) 
 final project.
@@ -21,7 +21,7 @@ that allow the piece to behave in the particular way it should. For instance, th
 implemented differently depending on what class of piece you are (Bishops move diagonaly, Rooks horizontally/vertically,
 Knights can jump over pieces...).
 
-##Classes overview
+## Classes overview
 
 RunChess.java. - The class that runs the game.
 
@@ -38,7 +38,7 @@ abstract properties of a chess piece.
 Pawn, Knight, Bishop, Rook, Queen, King. - Each of these are children of Piece. They contain the more specific
 properties of each piece, like how they can move and capture.
 
-##Design evaluation / Things to improve
+## Design evaluation / Things to improve
 
 There are some instance fields that I left as public. If I could go back, I would change them to private and make
 appropriate getter and setter methods.
@@ -51,11 +51,11 @@ design choice.
 Finally, I would make my code more modular and easier to read by breaking down some large methods into one method
 that uses helper functions.
 
-##Installation
+## Installation
 
 To run the project, clone the repository and run the Game class in src/main/java/org.cis120
 
-##External Resources
+## External Resources
 I used images from freepnglogos for the chess pieces: https://www.freepnglogos.com/pics/chess
 
 
