@@ -227,12 +227,9 @@ public class King extends Piece implements Comparable {
             }
 
             if (board[up][left] != null) {
-                // System.out.println("and here");
-                // System.out.println(board[up][left] instanceof King);
                 if (board[up][left].getColor() != this.getColor()
                         && (board[up][left] instanceof Bishop
                                 || board[up][left] instanceof Queen)) {
-                    // System.out.println("and and here");
                     return true;
                 }
                 firstInstanceOfPiece = true;

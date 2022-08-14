@@ -56,7 +56,6 @@ public class Queen extends Piece implements Comparable {
                 freePath = freePath && board[i][this.getColumn()] == null;
             }
         }
-        System.out.println("THE END ROW IS" + endRow);
         return freePath;
     }
 
